@@ -219,7 +219,7 @@
 <header class="site">
   <div class="nav">
     <a href="#top" class="brand">
-      <img src="assets/logo.png" alt="Logo ASI-ONG" style="width:38px; height:38px; object-fit:contain; flex-shrink:0;">
+      <img src="logo.png" alt="Logo ASI-ONG" style="width:38px; height:38px; object-fit:contain; flex-shrink:0;">
       <div class="brand-name">ASI-ONG<small>Action Sociale Internationale</small></div>
     </a>
     <nav class="links" id="navLinks">
@@ -251,7 +251,7 @@
         </div>
       </div>
       <div class="hero-visual">
-        <img src="assets/hero-collecte.jpg" alt="Agents ASI-ONG en mission de collecte, Libreville" style="width:100%; height:100%; object-fit:cover;">
+        <img src="h%C3%A9ros-collecte.jpg" alt="Agents ASI-ONG en mission de collecte, Libreville" style="width:100%; height:100%; object-fit:cover;">
       </div>
     </div>
   </section>
@@ -267,7 +267,7 @@
 
   <section class="mission" id="mission">
     <div class="wrap mission-grid">
-      <div class="mission-visual" style="overflow:hidden;"><img src="assets/mission-terrain.jpg" alt="Équipe ASI-ONG sur le terrain" style="width:100%; height:100%; object-fit:cover;"></div>
+      <div class="mission-visual" style="overflow:hidden;"><img src="mission-terrain.jpg" alt="Équipe ASI-ONG sur le terrain" style="width:100%; height:100%; object-fit:cover;"></div>
       <div class="mission-text">
         <span class="eyebrow">Notre mission</span>
         <p>Nous pensons que l'assainissement d'un quartier et l'avenir de sa jeunesse relèvent du même travail.</p>
@@ -364,7 +364,7 @@
       </div>
       <div class="news-grid">
         <div class="news-card">
-          <div class="thumb" style="background:none;"><img src="assets/actualite-comptage-1.jpg" alt="Équipe ASI-ONG et Studi International sur le terrain" style="width:100%; height:100%; object-fit:cover;"></div>
+          <div class="thumb" style="background:none;"><img src="actualite-comptage-1.jpg" alt="Équipe ASI-ONG et Studi International sur le terrain" style="width:100%; height:100%; object-fit:cover;"></div>
           <div class="body">
             <span class="eyebrow">Infrastructures</span>
             <h3>Mission de comptage routier sur le corridor Ndéndé–Doussala</h3>
@@ -372,7 +372,7 @@
           </div>
         </div>
         <div class="news-card">
-          <div class="thumb" style="background:none;"><img src="assets/actualite-comptage-2.jpg" alt="Équipes ASI-ONG et Studi International réunies sur site" style="width:100%; height:100%; object-fit:cover;"></div>
+          <div class="thumb" style="background:none;"><img src="actualite-comptage-2.jpg" alt="Équipes ASI-ONG et Studi International réunies sur site" style="width:100%; height:100%; object-fit:cover;"></div>
           <div class="body">
             <span class="eyebrow">Assainissement</span>
             <h3>Fiche technique des circuits de collecte remise à la Mairie</h3>
@@ -380,7 +380,7 @@
           </div>
         </div>
         <div class="news-card">
-          <div class="thumb" style="background:none;"><img src="assets/programme-sante.jpg" alt="Campagne de sensibilisation santé ASI-ONG" style="width:100%; height:100%; object-fit:cover;"></div>
+          <div class="thumb" style="background:none;"><img src="programme-sant%C3%A9.jpg" alt="Campagne de sensibilisation santé ASI-ONG" style="width:100%; height:100%; object-fit:cover;"></div>
           <div class="body">
             <span class="eyebrow">Santé</span>
             <h3>Campagnes de sensibilisation et d'accompagnement sanitaire</h3>
@@ -404,11 +404,11 @@
           <div><span class="k">Réseaux</span>Facebook &amp; WhatsApp — « Action Sociale Internationale (ASI-ONG) »</div>
         </div>
       </div>
-      <form class="contact-form" onsubmit="return handleSubmit(event)">
-        <input type="text" placeholder="Nom complet" required>
-        <input type="email" placeholder="Adresse email" required>
-        <input type="text" placeholder="Organisation (optionnel)">
-        <textarea placeholder="Votre message"></textarea>
+      <form class="contact-form" action="https://formspree.io/f/VOTRE_ID_FORMSPREE" method="POST">
+        <input type="text" name="name" placeholder="Nom complet" required>
+        <input type="email" name="email" placeholder="Adresse email" required>
+        <input type="text" name="organisation" placeholder="Organisation (optionnel)">
+        <textarea name="message" placeholder="Votre message" required></textarea>
         <button type="submit">Envoyer le message</button>
       </form>
     </div>
@@ -437,7 +437,6 @@
 
   function handleSubmit(e){
     e.preventDefault();
-    alert('Merci — ce formulaire est un aperçu. Connectez-le à votre messagerie ou à un service comme Formspree pour recevoir les messages.');
     return false;
   }
 
