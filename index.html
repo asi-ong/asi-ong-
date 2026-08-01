@@ -616,6 +616,32 @@ nav.links.open{display:flex;}
 <div class="full"><button type="submit">Envoyer ma candidature</button></div>
 </form>
 </div>
+</section><section class="partenariat" id="partenariat">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Collaborer avec nous</span>
+      <h2>Devenir partenaire d'ASI-ONG</h2>
+      <p>Institution, bailleur, ONG ou entreprise : remplissez ce formulaire pour explorer un partenariat avec ASI-ONG.</p>
+      <p>Vous pouvez aussi nous contacter directement sur <a href="https://wa.me/24107731257" target="_blank" rel="noopener">WhatsApp</a>.</p>
+    </div>
+    <form class="partenariat-form" action="https://formspree.io/f/REMPLACER_PAR_VOTRE_ID" method="POST">
+      <div><label>Nom de l'organisation</label><input type="text" name="organisation" required></div>
+      <div><label>Nom du contact</label><input type="text" name="contact" required></div>
+      <div><label>Email</label><input type="email" name="email" required></div>
+      <div><label>Téléphone (optionnel)</label><input type="text" name="telephone"></div>
+      <div><label>Type de partenariat envisagé</label>
+        <select name="type_partenariat">
+          <option>Partenariat financier / bailleur</option>
+          <option>Partenariat technique</option>
+          <option>Partenariat institutionnel</option>
+          <option>Mécénat d'entreprise</option>
+          <option>Autre</option>
+        </select>
+      </div>
+      <div class="full"><label>Message</label><textarea name="message" required></textarea></div>
+      <div class="full"><button type="submit">Envoyer ma demande</button></div>
+    </form>
+  </div>
 </section>
 <section class="contact" id="contact">
 <div class="wrap contact-grid">
