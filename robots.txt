@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://asi-ong.github.io/asi-ong-/sitemap.xml
