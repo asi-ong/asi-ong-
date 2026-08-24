@@ -39,8 +39,7 @@
 *{box-sizing:border-box;}
 html{scroll-behavior:smooth;}
 body{margin:0; background:var(--paper); color:var(--ink); font-family:'Work Sans',sans-serif; line-height:1.6; -webkit-font-smoothing:antialiased;}
-p{text-align:left;}
-@media (min-width:640px){ p{text-align:justify; text-align-last:left;} }
+p{text-align:justify; text-align-last:left; hyphens:auto; -webkit-hyphens:auto; overflow-wrap:break-word;}
 h1,h2,h3{font-family:'Fraunces',serif; font-weight:600; margin:0; letter-spacing:-0.01em;}
 .eyebrow{font-family:'IBM Plex Mono',monospace; font-size:0.72rem; letter-spacing:0.14em; text-transform:uppercase; color:var(--red-dark);}
 a{color:inherit;}
@@ -411,6 +410,7 @@ nav.links.open{display:flex;}
 <div class="gallery-item"><img src="logo-lldd.jpg" alt="Logo Les Leaders de Demain (LLDD)"></div>
 <div class="gallery-item"><img src="galerie-formation-pplaaf.jpg" alt="Formation des jeunes, remise de certificats PPLAAF"></div>
 <div class="gallery-item"><img src="galerie-couture-1.jpg" alt="Formation coupe-couture, bénéficiaires ASI-ONG"></div>
+<div class="gallery-item"><img src="galerie-couture-2.jpg" alt="Formation coupe-couture, bénéficiaires ASI-ONG"></div>
 </div>
 <div class="gallery-grid gallery-cat" data-cat="sante">
 <div class="gallery-item"><img src="galerie-sinohydro-1.jpg" alt="Sensibilisation VIH-SIDA, axe routier Ndéndé-Doussala, partenariat SINOHYDRO"></div>
@@ -495,6 +495,10 @@ nav.links.open{display:flex;}
 <img src="logo-studi-international.jpg" alt="Studi International" style="height:36px; width:auto;" onerror="this.onerror=null; this.outerHTML='&lt;div class=partner-pill&gt;Studi International&lt;/div&gt;';">
 <img src="logo-micic-partenaire.png" alt="MICIC" style="height:44px; width:auto;" onerror="this.onerror=null; this.outerHTML='&lt;div class=partner-pill&gt;MICIC&lt;/div&gt;';">
 <img src="logo-grand-triangle-partenaire.png" alt="Grand Triangle Inc" style="height:44px; width:auto;" onerror="this.onerror=null; this.outerHTML='&lt;div class=partner-pill&gt;Grand Triangle Inc&lt;/div&gt;';">
+<img src="logo-oif.jpg" alt="Organisation Internationale de la Francophonie (OIF)" style="height:52px; width:auto;" onerror="this.onerror=null; this.outerHTML='&lt;div class=partner-pill&gt;OIF&lt;/div&gt;';">
+<img src="logo-institut-francais.jpg" alt="Institut Français" style="height:52px; width:auto;" onerror="this.onerror=null; this.outerHTML='&lt;div class=partner-pill&gt;Institut Français&lt;/div&gt;';">
+<img src="logo-mi-imprimerie.jpg" alt="M.I Imprimerie" style="height:52px; width:auto;" onerror="this.onerror=null; this.outerHTML='&lt;div class=partner-pill&gt;M.I Imprimerie&lt;/div&gt;';">
+<img src="logo-josy-services.jpg" alt="Josy-Services" style="height:52px; width:auto;" onerror="this.onerror=null; this.outerHTML='&lt;div class=partner-pill&gt;Josy-Services&lt;/div&gt;';">
 </div>
 </div>
 </section>
@@ -579,6 +583,38 @@ nav.links.open{display:flex;}
 <p>Communiqué du 31 juillet 2026 sur la première réunion du MAG-NPAP Gabon. <a href="communique-npap-mag-2026.pdf" target="_blank" rel="noopener" style="color:var(--red-dark); font-weight:600;">Télécharger le communiqué (PDF) →</a></p>
 </div>
 </div>
+<div class="news-card">
+<div class="thumb" style="background:none;"><img src="presse-paludisme-oyem-1.jpg" alt="ASI en campagne contre le paludisme et le VIH-SIDA, Oyem" style="width:100%; height:100%; object-fit:cover;"></div>
+<div class="body">
+<span class="eyebrow">Woleu-Ntem / Oyem</span>
+<h3>ASI en campagne contre le paludisme et le VIH/Sida</h3>
+<p>Campagne de sensibilisation et distribution de moustiquaires imprégnées dans le quartier Nkomayat, en partenariat avec la mairie d'Oyem et le PDIL.</p>
+</div>
+</div>
+<div class="news-card">
+<div class="thumb" style="background:none;"><img src="presse-paludisme-oyem-gabonmatin.jpg" alt="ASI en campagne de sensibilisation dans le septentrion, Gabonmatin" style="width:100%; height:100%; object-fit:cover;"></div>
+<div class="body">
+<span class="eyebrow">Gabonmatin — 23 août 2010</span>
+<h3>Lutte contre le paludisme : ASI en campagne de sensibilisation dans le septentrion</h3>
+<p>Opération porte-à-porte à Oyem (quartier Akom-Yate) en collaboration avec la Cn-TIPPEE, distribution de moustiquaires et préservatifs.</p>
+</div>
+</div>
+<div class="news-card">
+<div class="thumb" style="background:none;"><img src="presse-grandes-ambitions.jpg" alt="ASI, une ONG aux grandes ambitions" style="width:100%; height:100%; object-fit:cover;"></div>
+<div class="body">
+<span class="eyebrow">Vie des associations</span>
+<h3>ASI, une ONG aux grandes ambitions</h3>
+<p>Portrait de l'association créée en 2004, ses objectifs et son ambition d'implantation régionale dans la sous-région CEMAC puis sur le continent africain.</p>
+</div>
+</div>
+<div class="news-card">
+<div class="thumb" style="background:none;"><img src="presse-materiel-allemagne-2010.jpg" alt="Don de matériel d'assainissement de l'Ambassade d'Allemagne à l'ONG ASI" style="width:100%; height:100%; object-fit:cover;"></div>
+<div class="body">
+<span class="eyebrow">Œuvre de bienfaisance</span>
+<h3>Du matériel d'assainissement pour l'Ong Asi</h3>
+<p>Don de 2,8 millions de francs de matériel d'assainissement offert par l'ambassadeur d'Allemagne au Gabon, Hans-Dietrich Bernard, pour la création d'une PME.</p>
+</div>
+</div>
 </div>
 </div>
 </section>
@@ -623,6 +659,18 @@ nav.links.open{display:flex;}
 <div class="v">Matricule 015-0203228-L</div>
 <img src="attestation-cnss-vignette.jpg" alt="Accusé de réception immatriculation employeur CNSS" style="width:100%; border-radius:6px; margin:10px 0; border:1px solid var(--line);">
 <p>Accusé de réception, Caisse Nationale de Sécurité Sociale, 6 juillet 2020. <a href="attestation-cnss.pdf" target="_blank" rel="noopener" style="color:var(--red-dark); font-weight:600;">Voir le PDF →</a></p>
+</div>
+<div class="dons-card">
+<span class="k">Attestation de fréquence — Radio ASI</span>
+<div class="v">107 MHZ</div>
+<img src="attestation-frequence-radio-vignette.jpg" alt="Attestation de fréquence radio ASI" style="width:100%; border-radius:6px; margin:10px 0; border:1px solid var(--line);">
+<p>Fréquence 107 MHZ assignée à l'émetteur de la radio communautaire ASI, Direction de la Communication, 4 mai 2007. <a href="attestation-frequence-radio.pdf" target="_blank" rel="noopener" style="color:var(--red-dark); font-weight:600;">Voir le PDF →</a></p>
+</div>
+<div class="dons-card">
+<span class="k">Enregistrement radio communautaire — CNC</span>
+<div class="v">N°01/CNC/PCNC/SG/DGAJC/DPL/2016</div>
+<img src="attestation-enregistrement-radio-cnc-vignette.jpg" alt="Attestation d'enregistrement radio CNC" style="width:100%; border-radius:6px; margin:10px 0; border:1px solid var(--line);">
+<p>Attestation d'enregistrement de la radio communautaire ASI auprès du Conseil National de la Communication, exemption de redevance, 4 janvier 2016. <a href="attestation-enregistrement-radio-cnc.pdf" target="_blank" rel="noopener" style="color:var(--red-dark); font-weight:600;">Voir le PDF →</a></p>
 </div>
 </div>
 </div>
